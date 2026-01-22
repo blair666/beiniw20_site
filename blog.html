@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Lifestyle - Blair W</title>
+    <meta name="description" content="Travel adventures, food discoveries, and lifestyle content by Blair W">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-xl font-bold text-gray-800">
+                    <a href="index.html">Blair W | Tech & Cloud</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600 transition">Home</a>
+                    <a href="services.html" class="text-gray-600 hover:text-blue-600 transition">Services</a>
+                    <a href="blog.html" class="text-blue-600 font-semibold">Blog</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-600">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-4 py-2 space-y-2">
+                <a href="index.html" class="block text-gray-600 hover:text-blue-600">Home</a>
+                <a href="services.html" class="block text-gray-600 hover:text-blue-600">Services</a>
+                <a href="blog.html" class="block text-blue-600 font-semibold">Blog</a>
+                <a href="contact.html" class="block text-gray-600 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 bg-cover bg-center text-white" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/1.jpg');">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Travel & Lifestyle</h1>
+            <p class="text-xl md:text-2xl mb-6 text-pink-100">Exploring the world through food, culture, and authentic experiences</p>
+            <div class="flex flex-wrap justify-center gap-4 mb-8">
+                <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">🌍 Travel Adventures</span>
+                <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">🍜 Food Discoveries</span>
+                <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">📸 Lifestyle Content</span>
+                <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">🤝 Brand Partnerships</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Content -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Latest Adventures</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Follow my journey as I explore new places, discover amazing food, and share authentic cultural experiences</p>
+            </div>
+
+            <!-- Blog Posts Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Iceland Trip - Featured Post -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition md:col-span-2">
+                    <div class="h-64 bg-cover bg-center" style="background-image: url('images/1.jpg');">
+                        <div class="h-full bg-black bg-opacity-40 flex items-end">
+                            <div class="text-white p-6">
+                                <span class="bg-blue-600 px-3 py-1 rounded text-sm font-semibold">Featured Trip</span>
+                                <h2 class="text-2xl font-bold mt-2">Iceland Adventure</h2>
+                                <p class="text-blue-100 mt-1">Land of fire, ice, and endless wonder</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">Travel</span>
+                            <span class="text-gray-500 text-sm ml-3">Latest Adventure • Iceland 2024</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Exploring Iceland: Northern Lights & Natural Wonders</h3>
+                        <p class="text-gray-600 mb-4">My recent trip to Iceland was absolutely magical! From chasing the Northern Lights to soaking in geothermal hot springs, every moment was an adventure. The dramatic landscapes, from glacial lagoons to volcanic black sand beaches, created the perfect backdrop for unforgettable memories.</p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-4 text-sm text-gray-500">
+                                <span><i class="fas fa-map-marker-alt mr-1"></i>Reykjavik, Iceland</span>
+                                <span><i class="fas fa-calendar mr-1"></i>Recent Trip</span>
+                            </div>
+                            <a href="#iceland-details" class="text-blue-600 hover:text-blue-700 font-semibold">Read Full Story →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Food Discovery Post - COMMENTED OUT FOR LATER -->
+                <!--
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="h-48 bg-cover bg-center" style="background-image: url('images/hero-background.jpg');">
+                        <div class="h-full bg-black bg-opacity-30 flex items-end">
+                            <div class="text-white p-4">
+                                <span class="bg-green-600 px-2 py-1 rounded text-xs font-semibold">Food</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-semibold">Food</span>
+                            <span class="text-gray-500 text-sm ml-2">Culinary Discovery</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Authentic Flavors</h3>
+                        <p class="text-gray-600 mb-4">Discovering amazing local cuisines and authentic food experiences. From street food to fine dining, every meal tells a story...</p>
+                        <a href="#" class="text-green-600 hover:text-green-700 font-semibold">Read More →</a>
+                    </div>
+                </article>
+                -->
+            </div>
+
+            <!-- Iceland Trip Details Section -->
+            <div id="iceland-details" class="bg-white rounded-lg shadow-lg p-8 mb-16">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Iceland Adventure Highlights</h2>
+                    <p class="text-xl text-gray-600">A journey through the land of fire and ice</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8 mb-8">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">🌌 Northern Lights Magic</h3>
+                        <p class="text-gray-600 mb-4">
+                            I was incredibly lucky to witness the Aurora Borealis in multiple stunning locations! The Northern Lights at Blue Lagoon were absolutely magical - imagine soaking in warm geothermal waters while green lights dance overhead. I also caught them in Reykjavik, proving you don't always need to venture far from the city.
+                        </p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center"><i class="fas fa-star text-blue-500 mr-2"></i>Blue Lagoon - Northern Lights + hot springs combo</li>
+                            <li class="flex items-center"><i class="fas fa-star text-blue-500 mr-2"></i>Reykjavik city viewing spots</li>
+                            <li class="flex items-center"><i class="fas fa-star text-blue-500 mr-2"></i>Perfect weather conditions for photography</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">🏔️ South Coast Adventures</h3>
+                        <p class="text-gray-600 mb-4">
+                            The South Coast of Iceland completely stole my heart! The dramatic landscapes are unlike anywhere else on Earth. From the iconic black sand beaches to the breathtaking glacier lagoons, every stop was a photographer's dream.
+                        </p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center"><i class="fas fa-mountain text-green-500 mr-2"></i>Black sand beaches - otherworldly beauty</li>
+                            <li class="flex items-center"><i class="fas fa-mountain text-green-500 mr-2"></i>Diamond Beach - icebergs on black sand</li>
+                            <li class="flex items-center"><i class="fas fa-mountain text-green-500 mr-2"></i>Glacier Lagoon - floating icebergs</li>
+                            <li class="flex items-center"><i class="fas fa-mountain text-green-500 mr-2"></i>Hat Mountain (Vestrahorn) - dramatic peaks</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Restaurant Section - COMMENTED OUT FOR LATER -->
+                <!--
+                <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6 mb-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">🍽️ My Favorite Iceland Restaurants</h3>
+                    
+                    <div class="grid md:grid-cols-2 gap-4 mb-4">
+                        <div class="bg-white rounded-lg p-4 shadow-sm">
+                            <h4 class="font-bold text-gray-800 mb-2">🔥 Sjavargrillio</h4>
+                            <p class="text-gray-600 text-sm mb-2">Amazing grilled food! Everything was perfectly cooked and the flavors were incredible. A must-visit for meat lovers.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-yellow-500 text-sm">⭐⭐⭐⭐⭐</span>
+                                <span class="bg-red-100 text-red-800 px-2 py-1 rounded-full text-xs">Grilled Perfection</span>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-lg p-4 shadow-sm">
+                            <h4 class="font-bold text-gray-800 mb-2">🥐 Sandholt Bakery</h4>
+                            <p class="text-gray-600 text-sm mb-2">The BEST breakfast spot in Reykjavik! Fresh pastries, amazing coffee, and perfect for starting your day. Must stop by!</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-yellow-500 text-sm">⭐⭐⭐⭐⭐</span>
+                                <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded-full text-xs">Breakfast Heaven</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg p-4 shadow-sm">
+                        <h4 class="font-bold text-gray-800 mb-2">🐟 Fish Company</h4>
+                        <p class="text-gray-600 text-sm mb-2">Exceptional seafood restaurant with creative presentations. The fish was incredibly fresh and the atmosphere was perfect for a special dinner.</p>
+                        <div class="flex items-center">
+                            <span class="text-yellow-500 text-sm">⭐⭐⭐⭐⭐</span>
+                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs ml-2">Fresh Seafood</span>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+
+            <!-- Photo Gallery Section - COMMENTED OUT FOR LATER -->
+            <!--
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Photo Gallery</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <!-- Your actual photos -->
+                    <div class="aspect-square bg-cover bg-center rounded-lg shadow-md hover:shadow-lg transition cursor-pointer" style="background-image: url('images/1.jpg');">
+                    </div>
+                    <div class="aspect-square bg-cover bg-center rounded-lg shadow-md hover:shadow-lg transition cursor-pointer" style="background-image: url('images/hero-background.jpg');">
+                    </div>
+                    <div class="aspect-square bg-cover bg-center rounded-lg shadow-md hover:shadow-lg transition cursor-pointer" style="background-image: url('images/profile.jpeg');">
+                    </div>
+                    <!-- Placeholders for more photos -->
+                    <div class="aspect-square bg-gradient-to-br from-pink-300 to-purple-400 rounded-lg flex items-center justify-center shadow-md hover:shadow-lg transition cursor-pointer">
+                        <div class="text-white text-center">
+                            <i class="fas fa-plus text-2xl mb-1"></i>
+                            <p class="text-xs">Add Photo</p>
+                        </div>
+                    </div>
+                    <div class="aspect-square bg-gradient-to-br from-blue-300 to-green-400 rounded-lg flex items-center justify-center shadow-md hover:shadow-lg transition cursor-pointer">
+                        <div class="text-white text-center">
+                            <i class="fas fa-plus text-2xl mb-1"></i>
+                            <p class="text-xs">Add Photo</p>
+                        </div>
+                    </div>
+                    <div class="aspect-square bg-gradient-to-br from-yellow-300 to-orange-400 rounded-lg flex items-center justify-center shadow-md hover:shadow-lg transition cursor-pointer">
+                        <div class="text-white text-center">
+                            <i class="fas fa-plus text-2xl mb-1"></i>
+                            <p class="text-xs">Add Photo</p>
+                        </div>
+                    </div>
+                    <div class="aspect-square bg-gradient-to-br from-purple-300 to-pink-400 rounded-lg flex items-center justify-center shadow-md hover:shadow-lg transition cursor-pointer">
+                        <div class="text-white text-center">
+                            <i class="fas fa-plus text-2xl mb-1"></i>
+                            <p class="text-xs">Add Photo</p>
+                        </div>
+                    </div>
+                    <div class="aspect-square bg-gradient-to-br from-green-300 to-blue-400 rounded-lg flex items-center justify-center shadow-md hover:shadow-lg transition cursor-pointer">
+                        <div class="text-white text-center">
+                            <i class="fas fa-plus text-2xl mb-1"></i>
+                            <p class="text-xs">Add Photo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-6">
+                    <p class="text-gray-600 mb-4">Add more travel photos to showcase your adventures</p>
+                    <a href="contact.html" class="bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700 transition">
+                        <i class="fas fa-camera mr-2"></i>Share Your Story
+                    </a>
+                </div>
+            </div>
+            -->
+
+            <!-- Video Gallery Section -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Iceland Adventure Videos</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Scilia Hotel - Instagram Reel -->
+                    <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+                        <div class="aspect-video bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+                            <div class="text-white text-center">
+                                <i class="fas fa-play-circle text-6xl mb-2"></i>
+                                <p class="text-sm font-semibold">Scilia Hotel Stay</p>
+                                <p class="text-xs">Iceland Luxury Experience</p>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800 mb-1">🏨 Scilia Hotel Iceland</h3>
+                            <p class="text-gray-600 text-sm mb-3">My luxury stay at Scilia Hotel - incredible views and experiences</p>
+                            <a href="https://www.instagram.com/reel/DS-8RqACGKQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-lg hover:from-purple-600 hover:to-pink-600 transition text-sm w-full block text-center">
+                                <i class="fab fa-instagram mr-1"></i>Watch Hotel Reel
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Northern Lights - TikTok -->
+                    <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+                        <div class="aspect-video bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center">
+                            <div class="text-white text-center">
+                                <i class="fas fa-play-circle text-6xl mb-2"></i>
+                                <p class="text-sm font-semibold">Northern Lights</p>
+                                <p class="text-xs">Aurora Borealis Magic</p>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800 mb-1">🌌 Northern Lights Chase</h3>
+                            <p class="text-gray-600 text-sm mb-3">Chasing the Aurora Borealis in Iceland - pure magic!</p>
+                            <a href="https://www.tiktok.com/@summer_air8/video/7597308458626485517" target="_blank" class="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition text-sm w-full block text-center">
+                                <i class="fab fa-tiktok mr-1"></i>Watch Northern Lights
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Future Content Placeholder -->
+                    <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+                        <div class="aspect-video bg-gradient-to-br from-pink-400 to-purple-500 flex items-center justify-center">
+                            <div class="text-white text-center">
+                                <i class="fas fa-plus-circle text-6xl mb-2"></i>
+                                <p class="text-sm">Next Adventure</p>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800 mb-1">🎬 Coming Soon</h3>
+                            <p class="text-gray-600 text-sm">More travel adventures and lifestyle content</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-6">
+                    <p class="text-gray-600 mb-4">Follow my adventures across platforms</p>
+                    <div class="space-x-4">
+                        <a href="https://www.tiktok.com/@summer_air8/" target="_blank" class="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition">
+                            <i class="fab fa-tiktok mr-2"></i>TikTok Stories
+                        </a>
+                        <a href="https://www.instagram.com/aiblair20/?hl=en" target="_blank" class="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg hover:from-purple-600 hover:to-pink-600 transition">
+                            <i class="fab fa-instagram mr-2"></i>Instagram Reels
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brand Partnership CTA -->
+            <div class="bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg p-8 text-white text-center">
+                <h2 class="text-3xl font-bold mb-4">Partner With Me</h2>
+                <p class="text-xl mb-6 text-pink-100">Looking for authentic lifestyle content and brand collaborations</p>
+                <div class="flex flex-wrap justify-center gap-4 mb-6">
+                    <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">Travel Content</span>
+                    <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">Food Reviews</span>
+                    <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">Product Features</span>
+                    <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">Cultural Bridge</span>
+                </div>
+                <div class="space-x-4">
+                    <a href="contact.html" class="bg-white text-pink-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                        Collaborate With Me
+                    </a>
+                    <a href="https://www.instagram.com/aiblair20/?hl=en" target="_blank" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-pink-600 transition">
+                        View Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
