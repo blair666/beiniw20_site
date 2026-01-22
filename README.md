@@ -1,127 +1,47 @@
-# Blair W - Simple Portfolio Website
+# Blair W - Personal Portfolio Website
 
-A clean, fast-loading portfolio website focusing on essential information and services.
+A professional portfolio website showcasing my skills as a Site Reliability Engineer, Full Stack Developer, and Lifestyle Content Creator.
 
-## 🌟 Features
+## 🌐 Live Website
+**Domain:** [beiniw20.com](https://beiniw20.com)
 
-- **Clean Design**: Minimal, professional layout
-- **Fast Loading**: No complex JavaScript or heavy assets
-- **Mobile Responsive**: Works perfectly on all devices
-- **Job-Focused**: Optimized for SRE, DevOps, and Cloud roles
-- **Easy Maintenance**: Simple HTML/CSS structure
+## 🚀 About
+Multi-dimensional professional combining:
+- **Tech Expertise:** Site Reliability Engineering, DevOps, Cloud (AWS)
+- **Language Teaching:** Mandarin & Shanghainese on iTalki
+- **Content Creation:** Travel, food, and lifestyle content
+- **Cultural Bridge:** Connecting tech and authentic experiences
 
-## 📁 Project Structure
+## 📄 Pages
+- **Home** - Professional overview and skills
+- **Services** - Available for hire (SRE, DevOps, teaching, partnerships)
+- **Blog** - Travel adventures and lifestyle content
+- **Contact** - Get in touch for opportunities
 
-```
-beiniw20-simple/
-├── index.html          # Homepage with hero and about sections
-├── services.html       # Service offerings and pricing
-├── contact.html        # Contact form and information
-├── styles.css          # Custom CSS and animations
-├── script.js           # Basic interactive functionality
-├── package.json        # Project dependencies
-└── README.md          # Project documentation
-```
+## 🛠️ Tech Stack
+- HTML5, CSS3, JavaScript
+- Tailwind CSS for styling
+- Font Awesome icons
+- Responsive design
 
-## 🚀 Getting Started
+## 📸 Content
+- Iceland travel adventure
+- Restaurant reviews and hidden gems
+- Photo gallery and travel stories
+- Brand partnership opportunities
 
-### Prerequisites
-- Node.js (for development server)
-- Modern web browser
+## 🤝 Open for Opportunities
+- **Full-time:** Site Reliability Engineer, DevOps, Cloud Engineering, AI/ML, SWE/SDE
+- **Part-time:** Mandarin/Shanghainese language instruction
+- **Partnerships:** Travel, food, and lifestyle brand collaborations
+- **Events:** Bilingual wedding hosting and MC services
 
-### Installation
-
-1. Clone or download the project files
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open your browser to `http://localhost:3000`
-
-## 📄 Pages Overview
-
-### 1. Homepage (`index.html`)
-- Hero section with professional introduction
-- About section with skills and experience
-- Call-to-action buttons for services and contact
-
-### 2. Services (`services.html`)
-- Service offerings:
-  - Full Stack Development
-  - DevOps & SRE (Primary expertise)
-  - AWS Cloud Solutions
-  - AI & Data Engineering
-  - Mandarin & Shanghainese Teaching
-- Process overview
-- Job-seeking status
-
-### 3. Contact (`contact.html`)
-- Contact form with validation
-- Contact information and availability
-- Social media links
-
-## 🎨 Customization
-
-### Colors
-- Primary: `#667eea` (Blue)
-- Secondary: `#764ba2` (Purple)
-- Clean, professional color scheme
-
-### Content Updates
-1. **Personal Information**: Update name, bio, and contact details
-2. **Services**: Modify service descriptions and availability
-3. **Skills**: Adjust technologies and experience
-
-## 🚀 Deployment
-
-### AWS S3 + CloudFront (Recommended)
-
-1. Create an S3 bucket for static website hosting
-2. Upload all files to the bucket
-3. Configure bucket for static website hosting
-4. Set up CloudFront distribution for CDN
-5. Configure custom domain (beiniw20.com)
-
-### Quick Deploy Script
-```bash
-npm run deploy
-```
-
-## 📱 Responsive Design
-
-Fully responsive with breakpoints:
-- Mobile: 320px - 768px
-- Tablet: 768px - 1024px
-- Desktop: 1024px+
-
-## ⚡ Performance Features
-
-- Lightweight HTML/CSS
-- Minimal JavaScript
-- Optimized images
-- Fast loading times
-- Clean, semantic structure
-
-## 🎯 Perfect For
-
-- **Job Applications**: Clean, professional presentation
-- **Quick Deployment**: Simple structure, easy to host
-- **Mobile Users**: Fast loading on all devices
-- **Easy Updates**: Simple HTML structure
-
-## 📞 Contact & Support
-
-For questions about this portfolio website:
-- Email: hello@beiniw20.com
-- LinkedIn: linkedin.com/in/beiniw2
-- GitHub: github.com/blair666
+## 📱 Connect
+- **LinkedIn:** [beiniw2](https://www.linkedin.com/in/beiniw2/)
+- **GitHub:** [blair666](https://github.com/blair666)
+- **Instagram:** [@aiblair20](https://www.instagram.com/aiblair20/?hl=en)
+- **TikTok:** [@summer_air8](https://www.tiktok.com/@summer_air8/)
+- **iTalki:** [Language Teaching Profile](https://www.italki.com/en/teacher/4087996)
 
 ---
-
-**Simple. Clean. Professional.**
+*Built with ❤️ by Blair W*
