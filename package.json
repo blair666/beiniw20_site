@@ -1,0 +1,17 @@
+{
+  "name": "beiniw20-portfolio-simple",
+  "version": "1.0.0",
+  "description": "Simple portfolio website for beiniw20.com - Home, Services, Contact",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "build": "echo 'Simple version - no build needed'",
+    "deploy": "aws s3 sync . s3://beiniw20.com --exclude 'node_modules/*' --exclude '.git/*'"
+  },
+  "keywords": ["portfolio", "simple", "sre", "devops", "aws", "mandarin"],
+  "author": "Blair W",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
