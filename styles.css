@@ -1,5 +1,51 @@
 /* Custom styles for beiniw20.com */
 
+/* Smart Navigation Styles */
+#navbar {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#navbar.scrolled {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation text colors */
+#nav-brand {
+    color: white;
+}
+
+#navbar.scrolled #nav-brand {
+    color: #1f2937;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #fde047;
+}
+
+#navbar.scrolled .nav-link {
+    color: #374151;
+}
+
+#navbar.scrolled .nav-link:hover {
+    color: #2563eb;
+}
+
+#navbar.scrolled #mobile-menu {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+/* Hero section text override */
+#home h1, #home p {
+    color: white !important;
+}
+
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;

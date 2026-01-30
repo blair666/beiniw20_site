@@ -13,17 +13,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Navigation functionality
 function initNavigation() {
-    const nav = document.querySelector('nav');
+    const navbar = document.getElementById('navbar');
     const navLinks = document.querySelectorAll('nav a[href^="#"]');
     
-    // Add scroll effect to navigation
+    // Smart navigation scroll effect
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 100) {
-            nav.classList.add('bg-white', 'shadow-lg');
-            nav.classList.remove('bg-transparent');
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
         } else {
-            nav.classList.remove('bg-white', 'shadow-lg');
-            nav.classList.add('bg-transparent');
+            navbar.classList.remove('scrolled');
         }
     });
     
